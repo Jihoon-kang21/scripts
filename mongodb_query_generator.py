@@ -4,7 +4,7 @@ from datetime import datetime
 from pprint import pprint
 
 # Establish a connection to MongoDB
-client = MongoClient("mongodb://gausslabsprd:Gausslabs1!@10.156.133.101:27001,10.156.133.103:27001,10.156.133.105:27001/gli-panoptes-vm-mongodb-prd?authSource=gli-panoptes-vm-mongodb-prd&replicaSet=mdb-repl15")
+client = MongoClient("mongodb://id:password@10.111.123.123:1001,10.111.123.124:1002,10.111.123.125:1003/app")
 db = client.get_database()  # Replace with your actual database name
 
 # Function to convert user input to the appropriate value
